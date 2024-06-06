@@ -1,7 +1,6 @@
 package com.sg.inventory.entities;
 
-
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Store {
@@ -50,7 +49,5 @@ public class Store {
     public void setManager(String manager) {
         this.manager = manager;
     }
-    
-    
-    
+
 }

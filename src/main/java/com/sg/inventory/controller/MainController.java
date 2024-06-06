@@ -3,11 +3,10 @@ package com.sg.inventory.controller;
 import com.sg.inventory.entities.Product;
 import com.sg.inventory.entities.Store;
 import com.sg.inventory.entities.Supplier;
-import javax.servlet.http.HttpServletRequest;
-
 import com.sg.inventory.repositories.ProductRepository;
 import com.sg.inventory.repositories.StoreRepository;
 import com.sg.inventory.repositories.SupplierRepository;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,10 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
-/**
- *
- * @author kylerudy
- */
 @Controller
 public class MainController {
     @Autowired

@@ -1,6 +1,7 @@
 package com.sg.inventory.entities;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 import java.util.List;
 
 @Entity
@@ -76,6 +77,5 @@ public class Product {
     public void setSuppliers(List<Supplier> suppliers) {
         this.suppliers = suppliers;
     }
-    
     
 }
