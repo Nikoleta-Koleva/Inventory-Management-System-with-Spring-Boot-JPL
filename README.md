@@ -1,6 +1,6 @@
-Inventory Management System application that allows the user to add a store, products related to it, and create a supplier which can be used by all stores.
+Inventory Management System application that allows the user to add a store, products related to it, and create a supplier which can be used by all stores. Supports CRUD operations on the data.
 
-The project utilizes JDK 21, Spring Boot, Jakarta Persistence Layer (JPL) and for the database, SQL and MySQL workbench is used.
+The project utilizes Java, Spring Boot, Jakarta Persistence Layer (JPL), SQL, MySQL workbench and Maven.
 
 There is an ERD image included in the db folder, as well as a workbench model file and sql schema creation/data insertion scripts.
 
